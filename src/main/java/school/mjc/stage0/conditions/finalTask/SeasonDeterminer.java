@@ -6,25 +6,25 @@ public class SeasonDeterminer {
             case 1:
             case 2:
             case 12:
-                logger.log("Winter");
+                System.out.println("Winter");
                 break;
             case 3:
             case 4:
             case 5:
-                logger.log("Spring");
+                System.out.println("Spring");
                 break;
             case 6:
             case 7:
             case 8:
-                logger.log("Summer");
+               System.out.println("Summer");
                 break;
             case 9:
             case 10:
             case 11:
-                logger.log("Autumn");
+               System.out.println("Autumn");
                 break;
             default:
-                logger.log("Wrong month number");
+                System.out.println("Wrong month number");
                 break;
         }
     }
